@@ -227,7 +227,7 @@ app.get("/api/audit", (req, res) => res.json({ ok: true, audit }));
 app.get("/api/ledger", (req, res) => res.json({ ok: true, ledger: readLedger() }));
 
 // ==== START SERVER ====
-const PORT = process.env.PORT || 4000
-app.listen(PORT, () => {
-  console.log(`✅ HealthChain backend running at http://localhost:${PORT}`);
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`✅ HealthChain backend running on port ${PORT}`);
 });
