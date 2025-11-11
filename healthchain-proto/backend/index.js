@@ -7,7 +7,10 @@ const cors = require("cors");
 const crypto = require("crypto");
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || '*',
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.static("public"));
 
