@@ -32,5 +32,164 @@
     "providerId": "doc-1",
     "tx": "0x820574de300b2a3056835fdc",
     "timestamp": "2025-10-31T10:41:44.195Z"
+  },
+  {
+    "type": "CONSENT_GRANTED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x765921b461f23d18736f0fa9",
+    "timestamp": "2025-11-11T08:18:18.765Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x6571f140a4f9a167e06c30c4",
+    "timestamp": "2025-11-11T08:18:23.046Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xf8873eeb4505c4412716b0cb",
+    "timestamp": "2025-11-11T08:18:24.098Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x2171adc195908993dbcc3f25",
+    "timestamp": "2025-11-11T08:18:26.643Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x8d9f48cb8f08fd9e15861aa6",
+    "timestamp": "2025-11-11T08:18:27.373Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x5f7a5b06315e0a544bdc73f3",
+    "timestamp": "2025-11-11T08:18:27.629Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x3f1002abfd879b837768b9b6",
+    "timestamp": "2025-11-11T08:18:27.811Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xec230c072df3c88eda85ca46",
+    "timestamp": "2025-11-11T08:18:32.395Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x3a2ebc01679634d8ae18577e",
+    "timestamp": "2025-11-11T08:18:36.240Z"
+  },
+  {
+    "type": "CONSENT_GRANTED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xfd77382d44ee99416ffee535",
+    "timestamp": "2025-11-11T08:18:42.420Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xb2ce3b4de04bd760369c1051",
+    "timestamp": "2025-11-11T08:18:45.353Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x2ae5605b1bddf12359c46466",
+    "timestamp": "2025-11-11T08:18:45.986Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xcce48b85ccbcabd77c51a7b5",
+    "timestamp": "2025-11-11T08:18:46.238Z"
+  },
+  {
+    "type": "RECORD_ADDED",
+    "recordId": "0x985b00b30739b618",
+    "tx": "0x20ddec4d6c66ce4917c35e91",
+    "timestamp": "2025-11-11T08:19:02.285Z"
+  },
+  {
+    "type": "CONSENT_GRANTED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xd3705f8ed1487c01b78a97aa",
+    "timestamp": "2025-11-11T08:19:08.509Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xf45b6ae4eb6f1ac7100bd0b0",
+    "timestamp": "2025-11-11T08:19:11.728Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xb68513bc1a1d1a973ab43e3b",
+    "timestamp": "2025-11-11T08:19:45.699Z"
+  },
+  {
+    "type": "CONSENT_REVOKED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xd2dc6ef72e81323ec277559a",
+    "timestamp": "2025-11-11T08:19:52.041Z"
+  },
+  {
+    "type": "CONSENT_GRANTED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xe851622b8365a82b49949214",
+    "timestamp": "2025-11-11T09:34:54.550Z"
+  },
+  {
+    "type": "RECORD_ADDED",
+    "recordId": "0x582318d45ef67d80",
+    "tx": "0x891320a73d9f2df018c99848",
+    "timestamp": "2025-11-11T09:34:58.720Z"
+  },
+  {
+    "type": "READ_RECORDS",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0x1e505c02edb01c5df13f7955",
+    "timestamp": "2025-11-11T09:35:29.218Z"
+  },
+  {
+    "type": "DOWNLOAD_DECRYPT",
+    "recordId": "0x582318d45ef67d80",
+    "tx": "0xfbb6c4f5d14f97837601fbdd",
+    "actor": "doc-1",
+    "timestamp": "2025-11-11T09:35:37.821Z"
+  },
+  {
+    "type": "CONSENT_REVOKED",
+    "patientId": "pat-1",
+    "providerId": "doc-1",
+    "tx": "0xeb823ec7ed90cac3e6ec6b83",
+    "timestamp": "2025-11-11T09:36:01.440Z"
   }
 ]
