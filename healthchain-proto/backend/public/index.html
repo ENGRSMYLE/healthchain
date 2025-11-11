@@ -141,7 +141,7 @@
         patientId: document.getElementById("gc-patient").value,
         providerId: document.getElementById("gc-provider").value
       };
-      const res = await fetch(API + "/consent/grant", {
+      const res = await fetch(API + "/api/consent/grant", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
@@ -155,7 +155,7 @@
         patientId: document.getElementById("gc-patient").value,
         providerId: document.getElementById("gc-provider").value
       };
-      const res = await fetch(API + "/consent/revoke", {
+      const res = await fetch(API + "/api/consent/revoke", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body)
@@ -170,7 +170,7 @@
       formData.append("providerId", document.getElementById("ur-provider").value);
       formData.append("file", document.getElementById("ur-file").files[0]);
 
-      const res = await fetch(API + "/add-record", {
+      const res = await fetch(API + "/api/add-record", {
         method: "POST",
         body: formData
       });
@@ -181,7 +181,7 @@
     async function fetchRecords() {
       const pid = document.getElementById("fr-patient").value;
       const prov = document.getElementById("fr-provider").value;
-      const res = await fetch(`${API}/records/${pid}/${prov}`);
+      const res = await fetch(`${API}/api/records/${pid}/${prov}`);
       const data = await res.json();
       if (!data.ok) {
         document.getElementById("records-table").innerHTML =
@@ -208,18 +208,18 @@
     }
 
     function downloadRecord(recordId, providerId) {
-      const url = `${API}/decrypt/${recordId}?providerId=${providerId}`;
+      const url = `${API}/api/decrypt/${recordId}?providerId=${providerId}`;
       window.open(url, "_blank");
     }
 
     async function fetchAudit() {
-      const res = await fetch(API + "/audit");
+      const res = await fetch(API + "/api/audit");
       document.getElementById("al-out").textContent =
         JSON.stringify(await res.json(), null, 2);
     }
 
     async function fetchLedger() {
-      const res = await fetch(API + "/ledger");
+      const res = await fetch(API + "/api/ledger");
       document.getElementById("ledger-out").textContent =
         JSON.stringify(await res.json(), null, 2);
     }
