@@ -127,7 +127,7 @@
                                                
     async function checkStatus() {
       try {
-        const res = await fetch(API + "/status");
+        const res = await fetch(API + "/api/status");
         const data = await res.json();
         document.getElementById("status").textContent =
           data.msg + " ✅ (" + data.now + ")";
